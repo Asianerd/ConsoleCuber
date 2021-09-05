@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfScramble xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Scramble>
+    <turnSet>
+      <Turns>B</Turns>
+      <Turns>Dc</Turns>
+      <Turns>Fc</Turns>
+      <Turns>Rc</Turns>
+      <Turns>Lc</Turns>
+      <Turns>Dc</Turns>
+      <Turns>Bc</Turns>
+      <Turns>F</Turns>
+      <Turns>R</Turns>
+      <Turns>L</Turns>
+    </turnSet>
+    <turnSetString>B  D' F' R' L' D' B' F  R  L  </turnSetString>
+    <turnSetStringCollection>
+      <string>B  </string>
+      <string>D' </string>
+      <string>F' </string>
+      <string>R' </string>
+      <string>L' </string>
+      <string>D' </string>
+      <string>B' </string>
+      <string>F  </string>
+      <string>R  </string>
+      <string>L  </string>
+    </turnSetStringCollection>
+    <time>44732</time>
+    <timeSeconds>44.732</timeSeconds>
+    <startTime>1630832294675</startTime>
+    <endTime>1630832339407</endTime>
+    <active>false</active>
+  </Scramble>
+  <Scramble>
+    <turnSet>
+      <Turns>D</Turns>
+      <Turns>Rc</Turns>
+      <Turns>L</Turns>
+      <Turns>Uc</Turns>
+      <Turns>F</Turns>
+      <Turns>Bc</Turns>
+      <Turns>Rc</Turns>
+      <Turns>U</Turns>
+      <Turns>L</Turns>
+      <Turns>F</Turns>
+    </turnSet>
+    <turnSetString>D  R' L  U' F  B' R' U  L  F  </turnSetString>
+    <turnSetStringCollection>
+      <string>D  </string>
+      <string>R' </string>
+      <string>L  </string>
+      <string>U' </string>
+      <string>F  </string>
+      <string>B' </string>
+      <string>R' </string>
+      <string>U  </string>
+      <string>L  </string>
+      <string>F  </string>
+    </turnSetStringCollection>
+    <time>45043</time>
+    <timeSeconds>45.043</timeSeconds>
+    <startTime>1630832360996</startTime>
+    <endTime>1630832406039</endTime>
+    <active>false</active>
+  </Scramble>
+  <Scramble>
+    <turnSet>
+      <Turns>F</Turns>
+      <Turns>D</Turns>
+      <Turns>U</Turns>
+      <Turns>Lc</Turns>
+      <Turns>Rc</Turns>
+      <Turns>F</Turns>
+      <Turns>D</Turns>
+      <Turns>Uc</Turns>
+      <Turns>L</Turns>
+      <Turns>F</Turns>
+    </turnSet>
+    <turnSetString>F  D  U  L' R' F  D  U' L  F  </turnSetString>
+    <turnSetStringCollection>
+      <string>F  </string>
+      <string>D  </string>
+      <string>U  </string>
+      <string>L' </string>
+      <string>R' </string>
+      <string>F  </string>
+      <string>D  </string>
+      <string>U' </string>
+      <string>L  </string>
+      <string>F  </string>
+    </turnSetStringCollection>
+    <time>49069</time>
+    <timeSeconds>49.069</timeSeconds>
+    <startTime>1630832419138</startTime>
+    <endTime>1630832468207</endTime>
+    <active>false</active>
+  </Scramble>
+  <Scramble>
+    <turnSet>
+      <Turns>Uc</Turns>
+      <Turns>Rc</Turns>
+      <Turns>D</Turns>
+      <Turns>L</Turns>
+      <Turns>U</Turns>
+      <Turns>R</Turns>
+      <Turns>D</Turns>
+      <Turns>L</Turns>
+      <Turns>F</Turns>
+      <Turns>Uc</Turns>
+    </turnSet>
+    <turnSetString>U' R' D  L  U  R  D  L  F  U' </turnSetString>
+    <turnSetStringCollection>
+      <string>U' </string>
+      <string>R' </string>
+      <string>D  </string>
+      <string>L  </string>
+      <string>U  </string>
+      <string>R  </string>
+      <string>D  </string>
+      <string>L  </string>
+      <string>F  </string>
+      <string>U' </string>
+    </turnSetStringCollection>
+    <time>48365</time>
+    <timeSeconds>48.365</timeSeconds>
+    <startTime>1630832482729</startTime>
+    <endTime>1630832531094</endTime>
+    <active>false</active>
+  </Scramble>
+  <Scramble>
+    <turnSet>
+      <Turns>F</Turns>
+      <Turns>Lc</Turns>
+      <Turns>Dc</Turns>
+      <Turns>U</Turns>
+      <Turns>B</Turns>
+      <Turns>Lc</Turns>
+      <Turns>F</Turns>
+      <Turns>Rc</Turns>
+      <Turns>Dc</Turns>
+      <Turns>Bc</Turns>
+    </turnSet>
+    <turnSetString>F  L' D' U  B  L' F  R' D' B' </turnSetString>
+    <turnSetStringCollection>
+      <string>F  </string>
+      <string>L' </string>
+      <string>D' </string>
+      <string>U  </string>
+      <string>B  </string>
+      <string>L' </string>
+      <string>F  </string>
+      <string>R' </string>
+      <string>D' </string>
+      <string>B' </string>
+    </turnSetStringCollection>
+    <time>53360</time>
+    <timeSeconds>53.36</timeSeconds>
+    <startTime>1630832635820</startTime>
+    <endTime>1630832689180</endTime>
+    <active>false</active>
+  </Scramble>
+  <Scramble>
+    <turnSet>
+      <Turns>Lc</Turns>
+      <Turns>B</Turns>
+      <Turns>U</Turns>
+      <Turns>Rc</Turns>
+      <Turns>F</Turns>
+      <Turns>D</Turns>
+      <Turns>Uc</Turns>
+      <Turns>L</Turns>
+      <Turns>Bc</Turns>
+      <Turns>F</Turns>
+    </turnSet>
+    <turnSetString>L' B  U  R' F  D  U' L  B' F  </turnSetString>
+    <turnSetStringCollection>
+      <string>L' </string>
+      <string>B  </string>
+      <string>U  </string>
+      <string>R' </string>
+      <string>F  </string>
+      <string>D  </string>
+      <string>U' </string>
+      <string>L  </string>
+      <string>B' </string>
+      <string>F  </string>
+    </turnSetStringCollection>
+    <time>57120</time>
+    <timeSeconds>57.12</timeSeconds>
+    <startTime>1630884551483</startTime>
+    <endTime>1630884608603</endTime>
+    <active>false</active>
+  </Scramble>
+</ArrayOfScramble>
