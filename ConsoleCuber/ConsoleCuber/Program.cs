@@ -18,6 +18,7 @@ namespace ConsoleCuber
             state = State.Viewing;
             Console.ForegroundColor = ConsoleColor.White;
             Dialogue.initializeColors();
+            RichPresence.Initialize();
 
             if (!File.Exists(Scramble.filePath)) { Scramble.Save(); }
             Scramble.Load();
@@ -26,6 +27,9 @@ namespace ConsoleCuber
             {
                 Console.Clear();
                 Scramble.Save();
+                RichPresence.UpdatePresence();
+
+                RichPresence.AnnounceState();
                 Dialogue.ColoredPrint("Please press only one button at a time!", ConsoleColor.Magenta);
                 ConsoleKey input = Dialogue.FetchKey("View records / Play    [ v / p ] : ").Key;
                 Console.WriteLine("");
@@ -39,10 +43,12 @@ namespace ConsoleCuber
                         state = State.Playing;
                         var scramble = new Scramble(null);
                         Console.Clear();
+                        RichPresence.UpdatePresence(scramble);
                         Console.WriteLine("");
                         Dialogue.TimedDialogue(scramble.turnSetStringCollection.Select(n => $"$col$a$ext${n}").ToArray(), 50);
                         Dialogue.FetchKey("\nPress any key to start!\n");
                         scramble.Start();
+                        RichPresence.UpdatePresence(scramble);
                         Dialogue.FetchKey("\nPress any button to end\n");
                         Scramble bestScramble = Scramble.scrambleHistory.Count()>1?Scramble.topScramble:null;
                         scramble.End();
@@ -62,6 +68,8 @@ namespace ConsoleCuber
                                 }, 50);
                             }
                         }
+                        state = State.Idle;
+                        RichPresence.UpdatePresence();
                         break;
                     case ConsoleKey.C:
                         Dialogue.TimedDialogue(new string[] {
@@ -81,6 +89,7 @@ namespace ConsoleCuber
                         break;
                     default:
                         state = State.Viewing;
+                        RichPresence.UpdatePresence();
                         Scramble.ViewTop();
                         Console.Write("\n\n");
                         Scramble.ViewHistory();
@@ -88,17 +97,20 @@ namespace ConsoleCuber
                         Scramble.PrintStatistics();
                         break;
                 }
-                state = State.None;
+                RichPresence.UpdatePresence();
+                state = State.Idle;
                 if (playing)
                 {
                     Console.ReadKey();
                 }
             }
+
+            RichPresence.Instance.activityManager.ClearActivity(result => { });
         }
 
         public enum State
         {
-            None,
+            Idle,
             Playing,
             Viewing
         }

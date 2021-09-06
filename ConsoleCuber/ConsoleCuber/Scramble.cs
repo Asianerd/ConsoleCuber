@@ -24,7 +24,7 @@ namespace ConsoleCuber
         public double time; // In milliseconds
         public double timeSeconds;
         public string timeReadable { get { return TimeToReadable(timeSeconds); } }
-        public double startTime;
+        public double startTime = -10d; // To recognize whether the cube is being solved or not
         public double endTime;
         public bool active = true;
 
@@ -49,8 +49,6 @@ namespace ConsoleCuber
                 turnSetString += final;
                 turnSetStringCollection.Add(final);
             }
-
-            startTime = Timer.Now();
         }
 
         public Scramble()
@@ -159,6 +157,15 @@ namespace ConsoleCuber
             SaveLoad.Save(filePath, scrambleHistory);
         }
 
+        public static string AverageTime()
+        {
+            string final = null;
+            if (scrambleHistory.Count > 1)
+            {
+                final = TimeToReadable(scrambleHistory.Select(n => n.timeSeconds).Sum() / scrambleHistory.Count);
+            }
+            return final;
+        }
 
         public static void PrintStatistics()
         {

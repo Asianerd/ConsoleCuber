@@ -1,0 +1,15 @@
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\bin\x86\Debug\net5.0\ConsoleCuber.exe
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\bin\x86\Debug\net5.0\ConsoleCuber.deps.json
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\bin\x86\Debug\net5.0\ConsoleCuber.runtimeconfig.json
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\bin\x86\Debug\net5.0\ConsoleCuber.runtimeconfig.dev.json
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\bin\x86\Debug\net5.0\ConsoleCuber.dll
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\bin\x86\Debug\net5.0\ref\ConsoleCuber.dll
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\bin\x86\Debug\net5.0\ConsoleCuber.pdb
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ConsoleCuber.GeneratedMSBuildEditorConfig.editorconfig
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ConsoleCuber.AssemblyInfoInputs.cache
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ConsoleCuber.AssemblyInfo.cs
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ConsoleCuber.csproj.CoreCompileInputs.cache
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ConsoleCuber.dll
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ref\ConsoleCuber.dll
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ConsoleCuber.pdb
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Debug\net5.0\ConsoleCuber.genruntimeconfig.cache
