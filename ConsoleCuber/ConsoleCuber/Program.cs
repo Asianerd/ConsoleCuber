@@ -4,6 +4,7 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Threading;
 
 namespace ConsoleCuber
 {
@@ -20,6 +21,11 @@ namespace ConsoleCuber
             Dialogue.initializeColors();
             RichPresence.Initialize();
 
+            RichPresence.UpdatePresence();
+            Dialogue.TimedDialogue(new string[] { "$col$e$ext$Initializing Discord RPC", "$col$e$ext$.", "$col$e$ext$.", "$col$e$ext$." }, 500);
+            Thread.Sleep(1000);
+            RichPresence.UpdatePresence();
+
             if (!File.Exists(Scramble.filePath)) { Scramble.Save(); }
             Scramble.Load();
 
@@ -31,7 +37,7 @@ namespace ConsoleCuber
 
                 RichPresence.AnnounceState();
                 Dialogue.ColoredPrint("Please press only one button at a time!", ConsoleColor.Magenta);
-                ConsoleKey input = Dialogue.FetchKey("View records / Play    [ v / p ] : ").Key;
+                ConsoleKey input = Dialogue.FetchKey("View records / Play / Escape   [ v / p / esc] : ").Key;
                 Console.WriteLine("");
 
                 switch (input)
@@ -77,11 +83,11 @@ namespace ConsoleCuber
                             $"$col$b    Github  : https://github.com/Asianerd"
                         }, 0);
 
-                        if(Dialogue.FetchKey("Visit website? [y/n]").Key == ConsoleKey.Y)
+                        if(Dialogue.FetchKey("Visit repository? [y/n]").Key == ConsoleKey.Y)
                         {
                             Process.Start(new ProcessStartInfo
                             {
-                                FileName = "https://github.com/Asianerd",
+                                FileName = "https://github.com/Asianerd/ConsoleCuber",
                                 UseShellExecute = true
                             });
                             break;

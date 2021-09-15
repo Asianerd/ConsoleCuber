@@ -13,3 +13,4 @@ D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Release\net5.0\Con
 D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Release\net5.0\ref\ConsoleCuber.dll
 D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Release\net5.0\ConsoleCuber.pdb
 D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Release\net5.0\ConsoleCuber.genruntimeconfig.cache
+D:\GithubRepos\ConsoleCuber\ConsoleCuber\ConsoleCuber\obj\x86\Release\net5.0\ConsoleCuber.csproj.AssemblyReference.cache
