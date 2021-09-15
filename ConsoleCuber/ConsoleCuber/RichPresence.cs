@@ -73,7 +73,7 @@ namespace ConsoleCuber
             Instance.activity.Assets.SmallImage = "iconbig";
             Instance.activity.Assets.SmallText = "ConsoleCuber by Asianerd";
 
-            for (int i = 0; i < 10; i++) // Updates ten times for good measure
+            for (int i = 0; i < 20; i++) // Updates a lot of times for good measure
             {
                 Instance.activityManager.UpdateActivity(Instance.activity, result =>
                     {
